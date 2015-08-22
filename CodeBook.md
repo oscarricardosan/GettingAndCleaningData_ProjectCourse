@@ -1,26 +1,44 @@
 #Script's variables
 
 ### General Variables 
-* **activity_labels** => 
-* **features** => 
+
+* **activity_labels** => names of the activirys.
+
+* **features** => names of the columns of trainX and testX.
+
 
 ###Test Variables
-* **testX** => 
-* **testY** => 
-* **testSubject** => 
+
+* **testX** => Data from UCI HAR Dataset/test/X_test.txt.
+
+* **testY** => Data from UCI HAR Dataset/test/y_test.txt.
+
+* **testSubject** => Data from UCI HAR Dataset/test/subject_test.txt.
+
+* **test** => Union between testSubject, testY and testX.
 
 ###Train Variables
-* **trainX** => 
-* **trainY** => 
-* **trainSubject** => 
-* **train** => 
+
+* **trainX** =>  Data from UCI HAR Dataset/test/X_test.txt.
+
+* **trainY** => Data from UCI HAR Dataset/test/y_test.txt.
+
+* **trainSubject** => Data from UCI HAR Dataset/test/subject_test.txt.
+
+* **train** =>  Union between trainSubject, trainY and trainX.
 
 ###Final Variables
-* **dataEnd** => 
-* **idLabels** => 
-* **dataLabels** => 
-* **meltData** => 
-* **tidy_data** => 
+
+* **dataFinal** => Union between train and test.
+
+
+* **idLabels** => id variables.
+
+* **dataLabels** => measure variables.
+
+* **meltData** => melt data of dataFinal using the id idLabels and the measure dataLabels.
+
+* **tidy_data** => Final data.
 
 
 #The directory "UCI HAR Dataset" includes the following files:
@@ -28,7 +46,7 @@
 
 - 'README.txt'
 
-- 'features_info.txt'** => Shows information about the variables used on the feature vector.
+- **'features_info.txt'** => Shows information about the variables used on the feature vector.
 
 - **'features.txt'** => List of all features.
 

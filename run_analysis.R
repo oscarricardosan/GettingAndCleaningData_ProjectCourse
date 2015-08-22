@@ -1,4 +1,4 @@
-# Librarys
+# Libraries
 library("data.table")
 library("reshape2")
 

@@ -10,7 +10,7 @@ For that the script works correctly, needs:
 
 ##2.How it works:
 
-0. Call the librarys data.table and reshape2.
+0. Call the libraries data.table and reshape2.
 1. read the data X_test.txt, y_test.txt and subject_test.txt.
 2. Assign names to test.
 3. Get only the measurements with mean or std in the name of testX.

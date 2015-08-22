@@ -29,7 +29,7 @@ For that the script works correctly, needs:
 13. Write table in the working Directory. 
 
 
-##2.How call it:
+##3.How call it:
 
 You have to type in the R console the next: 
 

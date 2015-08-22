@@ -25,7 +25,7 @@ For that the script works correctly, needs:
 10. Merge the data of train.
 
 11. Merge train and test.
-12. Meltf of the end data.
+12. Meltf of the final data.
 13. Write table in the working Directory. 
 
 

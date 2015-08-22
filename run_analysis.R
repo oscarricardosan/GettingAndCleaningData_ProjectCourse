@@ -45,12 +45,12 @@ train <- cbind(as.data.table(trainSubject), trainY, trainX)
 
 
 # Merge test and train 
-dataEnd = rbind(test, train)
+dataFinal = rbind(test, train)
 
 #Meltf of the datas
 idLabels   = c("subject", "ActivityId", "Activity")
-dataLabels = setdiff(colnames(dataEnd), idLabels)
-meltData      = melt(dataEnd, id = idLabels, measure.vars = dataLabels)
+dataLabels = setdiff(colnames(dataFinal), idLabels)
+meltData      = melt(dataFinal, id = idLabels, measure.vars = dataLabels)
 tidy_data   = dcast(meltData, subject + Activity ~ variable, mean)
 
 write.table(tidy_data, file = "tidy_data.txt", row.name=FALSE)

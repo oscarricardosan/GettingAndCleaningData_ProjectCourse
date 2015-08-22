@@ -1,26 +1,26 @@
 #Script's variables
 
 ### General Variables 
-*.**activity_labels** => 
-*.**features** => 
+* **activity_labels** => 
+* **features** => 
 
 ###Test Variables
-*.**testX** => 
-*.**testY** => 
-*.**testSubject** => 
+* **testX** => 
+* **testY** => 
+* **testSubject** => 
 
 ###Train Variables
-*.**trainX** => 
-*.**trainY** => 
-*.**trainSubject** => 
-*.**train** => 
+* **trainX** => 
+* **trainY** => 
+* **trainSubject** => 
+* **train** => 
 
 ###Final Variables
-*.**dataEnd** => 
-*.**idLabels** => 
-*.**dataLabels** => 
-*.**meltData** => 
-*.**tidy_data** => 
+* **dataEnd** => 
+* **idLabels** => 
+* **dataLabels** => 
+* **meltData** => 
+* **tidy_data** => 
 
 
 #The directory "UCI HAR Dataset" includes the following files:

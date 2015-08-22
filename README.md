@@ -21,7 +21,9 @@ For that the script works correctly, needs:
 7. Assign names to train.
 8. Get only the measurements with mean or std in the name of trainX.
 9. Associate activity with trainY data.
+
 10. Merge the data of train.
+
 11. Merge train and test.
 12. Meltf of the end data.
 13. Write table in the working Directory. 
